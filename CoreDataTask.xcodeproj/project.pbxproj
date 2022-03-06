@@ -9,14 +9,31 @@
 /* Begin PBXBuildFile section */
 		D50BDFFF27D28545006FCFF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BDFFE27D28545006FCFF4 /* AppDelegate.swift */; };
 		D50BE00127D28545006FCFF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE00027D28545006FCFF4 /* SceneDelegate.swift */; };
-		D50BE00327D28545006FCFF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE00227D28545006FCFF4 /* ViewController.swift */; };
-		D50BE00627D28545006FCFF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50BE00427D28545006FCFF4 /* Main.storyboard */; };
 		D50BE00927D28545006FCFF4 /* CoreDataTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D50BE00727D28545006FCFF4 /* CoreDataTask.xcdatamodeld */; };
 		D50BE00B27D2854A006FCFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50BE00A27D2854A006FCFF4 /* Assets.xcassets */; };
 		D50BE00E27D2854A006FCFF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50BE00C27D2854A006FCFF4 /* LaunchScreen.storyboard */; };
 		D50BE01927D2854B006FCFF4 /* CoreDataTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE01827D2854B006FCFF4 /* CoreDataTaskTests.swift */; };
 		D50BE02327D2854B006FCFF4 /* CoreDataTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE02227D2854B006FCFF4 /* CoreDataTaskUITests.swift */; };
 		D50BE02527D2854B006FCFF4 /* CoreDataTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE02427D2854B006FCFF4 /* CoreDataTaskUITestsLaunchTests.swift */; };
+		D50BE03D27D2890B006FCFF4 /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE03927D2890B006FCFF4 /* Employee+CoreDataClass.swift */; };
+		D50BE03E27D2890B006FCFF4 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE03A27D2890B006FCFF4 /* Employee+CoreDataProperties.swift */; };
+		D50BE03F27D2890B006FCFF4 /* Department+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE03B27D2890B006FCFF4 /* Department+CoreDataClass.swift */; };
+		D50BE04027D2890B006FCFF4 /* Department+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE03C27D2890B006FCFF4 /* Department+CoreDataProperties.swift */; };
+		D50BE04427D28992006FCFF4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE04327D28992006FCFF4 /* Constant.swift */; };
+		D50BE04727D289D1006FCFF4 /* Storyboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE04627D289D1006FCFF4 /* Storyboard+Extension.swift */; };
+		D50BE04927D289EF006FCFF4 /* Alert+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE04827D289EF006FCFF4 /* Alert+Extension.swift */; };
+		D50BE04D27D28A68006FCFF4 /* Databasehelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE04C27D28A68006FCFF4 /* Databasehelper.swift */; };
+		D50BE05427D28B47006FCFF4 /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE05327D28B47006FCFF4 /* EmployeeCell.swift */; };
+		D50BE05627D28B5A006FCFF4 /* DepartmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE05527D28B5A006FCFF4 /* DepartmentCell.swift */; };
+		D50BE05827D28B9F006FCFF4 /* DepartmentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE05727D28B9F006FCFF4 /* DepartmentListViewController.swift */; };
+		D50BE05A27D28BBF006FCFF4 /* DepartmentFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE05927D28BBF006FCFF4 /* DepartmentFormViewController.swift */; };
+		D50BE05C27D28BF2006FCFF4 /* DepartmentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE05B27D28BF2006FCFF4 /* DepartmentDetailViewController.swift */; };
+		D50BE05E27D28C1E006FCFF4 /* EmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE05D27D28C1E006FCFF4 /* EmployeeListViewController.swift */; };
+		D50BE06027D28C38006FCFF4 /* EmployeeFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE05F27D28C38006FCFF4 /* EmployeeFormViewController.swift */; };
+		D50BE06B27D293C1006FCFF4 /* Employee.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50BE06827D293C1006FCFF4 /* Employee.storyboard */; };
+		D50BE06D27D293C1006FCFF4 /* Department.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50BE06A27D293C1006FCFF4 /* Department.storyboard */; };
+		D50BE07027D3102C006FCFF4 /* EmployeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE06F27D3102C006FCFF4 /* EmployeeModel.swift */; };
+		D50BE07227D3105B006FCFF4 /* DepartmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE07127D3105B006FCFF4 /* DepartmentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +57,6 @@
 		D50BDFFB27D28545006FCFF4 /* CoreDataTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50BDFFE27D28545006FCFF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D50BE00027D28545006FCFF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D50BE00227D28545006FCFF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D50BE00527D28545006FCFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D50BE00827D28545006FCFF4 /* CoreDataTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataTask.xcdatamodel; sourceTree = "<group>"; };
 		D50BE00A27D2854A006FCFF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D50BE00D27D2854A006FCFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +66,25 @@
 		D50BE01E27D2854B006FCFF4 /* CoreDataTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50BE02227D2854B006FCFF4 /* CoreDataTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTaskUITests.swift; sourceTree = "<group>"; };
 		D50BE02427D2854B006FCFF4 /* CoreDataTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D50BE03927D2890B006FCFF4 /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D50BE03A27D2890B006FCFF4 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D50BE03B27D2890B006FCFF4 /* Department+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Department+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D50BE03C27D2890B006FCFF4 /* Department+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Department+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D50BE04327D28992006FCFF4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		D50BE04627D289D1006FCFF4 /* Storyboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Extension.swift"; sourceTree = "<group>"; };
+		D50BE04827D289EF006FCFF4 /* Alert+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+Extension.swift"; sourceTree = "<group>"; };
+		D50BE04C27D28A68006FCFF4 /* Databasehelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Databasehelper.swift; sourceTree = "<group>"; };
+		D50BE05327D28B47006FCFF4 /* EmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
+		D50BE05527D28B5A006FCFF4 /* DepartmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentCell.swift; sourceTree = "<group>"; };
+		D50BE05727D28B9F006FCFF4 /* DepartmentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentListViewController.swift; sourceTree = "<group>"; };
+		D50BE05927D28BBF006FCFF4 /* DepartmentFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentFormViewController.swift; sourceTree = "<group>"; };
+		D50BE05B27D28BF2006FCFF4 /* DepartmentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentDetailViewController.swift; sourceTree = "<group>"; };
+		D50BE05D27D28C1E006FCFF4 /* EmployeeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListViewController.swift; sourceTree = "<group>"; };
+		D50BE05F27D28C38006FCFF4 /* EmployeeFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeFormViewController.swift; sourceTree = "<group>"; };
+		D50BE06827D293C1006FCFF4 /* Employee.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Employee.storyboard; sourceTree = "<group>"; };
+		D50BE06A27D293C1006FCFF4 /* Department.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Department.storyboard; sourceTree = "<group>"; };
+		D50BE06F27D3102C006FCFF4 /* EmployeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeModel.swift; sourceTree = "<group>"; };
+		D50BE07127D3105B006FCFF4 /* DepartmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +115,13 @@
 		D50BDFF227D28545006FCFF4 = {
 			isa = PBXGroup;
 			children = (
+				D50BE07327D31C66006FCFF4 /* MVC */,
+				D50BE06427D28CB3006FCFF4 /* SupportingFiles */,
+				D50BE06327D28C7D006FCFF4 /* Storyboards */,
+				D50BE04B27D28A4E006FCFF4 /* DatabaseManager */,
+				D50BE04A27D28A15006FCFF4 /* Database_Class */,
+				D50BE04527D289A2006FCFF4 /* Extension */,
+				D50BE04227D28973006FCFF4 /* Constant */,
 				D50BDFFD27D28545006FCFF4 /* CoreDataTask */,
 				D50BE01727D2854B006FCFF4 /* CoreDataTaskTests */,
 				D50BE02127D2854B006FCFF4 /* CoreDataTaskUITests */,
@@ -101,12 +142,6 @@
 		D50BDFFD27D28545006FCFF4 /* CoreDataTask */ = {
 			isa = PBXGroup;
 			children = (
-				D50BDFFE27D28545006FCFF4 /* AppDelegate.swift */,
-				D50BE00027D28545006FCFF4 /* SceneDelegate.swift */,
-				D50BE00227D28545006FCFF4 /* ViewController.swift */,
-				D50BE00427D28545006FCFF4 /* Main.storyboard */,
-				D50BE00A27D2854A006FCFF4 /* Assets.xcassets */,
-				D50BE00C27D2854A006FCFF4 /* LaunchScreen.storyboard */,
 				D50BE00F27D2854A006FCFF4 /* Info.plist */,
 				D50BE00727D28545006FCFF4 /* CoreDataTask.xcdatamodeld */,
 			);
@@ -128,6 +163,126 @@
 				D50BE02427D2854B006FCFF4 /* CoreDataTaskUITestsLaunchTests.swift */,
 			);
 			path = CoreDataTaskUITests;
+			sourceTree = "<group>";
+		};
+		D50BE04227D28973006FCFF4 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				D50BE04327D28992006FCFF4 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		D50BE04527D289A2006FCFF4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D50BE04627D289D1006FCFF4 /* Storyboard+Extension.swift */,
+				D50BE04827D289EF006FCFF4 /* Alert+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D50BE04A27D28A15006FCFF4 /* Database_Class */ = {
+			isa = PBXGroup;
+			children = (
+				D50BE03927D2890B006FCFF4 /* Employee+CoreDataClass.swift */,
+				D50BE03A27D2890B006FCFF4 /* Employee+CoreDataProperties.swift */,
+				D50BE03B27D2890B006FCFF4 /* Department+CoreDataClass.swift */,
+				D50BE03C27D2890B006FCFF4 /* Department+CoreDataProperties.swift */,
+			);
+			path = Database_Class;
+			sourceTree = "<group>";
+		};
+		D50BE04B27D28A4E006FCFF4 /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				D50BE04C27D28A68006FCFF4 /* Databasehelper.swift */,
+			);
+			path = DatabaseManager;
+			sourceTree = "<group>";
+		};
+		D50BE04E27D28AAF006FCFF4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D50BE05027D28AD9006FCFF4 /* Employee */,
+				D50BE04F27D28ACD006FCFF4 /* Department */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D50BE04F27D28ACD006FCFF4 /* Department */ = {
+			isa = PBXGroup;
+			children = (
+				D50BE05727D28B9F006FCFF4 /* DepartmentListViewController.swift */,
+				D50BE05927D28BBF006FCFF4 /* DepartmentFormViewController.swift */,
+				D50BE05B27D28BF2006FCFF4 /* DepartmentDetailViewController.swift */,
+			);
+			path = Department;
+			sourceTree = "<group>";
+		};
+		D50BE05027D28AD9006FCFF4 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				D50BE05D27D28C1E006FCFF4 /* EmployeeListViewController.swift */,
+				D50BE05F27D28C38006FCFF4 /* EmployeeFormViewController.swift */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		D50BE05227D28AFE006FCFF4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D50BE05327D28B47006FCFF4 /* EmployeeCell.swift */,
+				D50BE05527D28B5A006FCFF4 /* DepartmentCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D50BE06327D28C7D006FCFF4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D50BE00C27D2854A006FCFF4 /* LaunchScreen.storyboard */,
+				D50BE06A27D293C1006FCFF4 /* Department.storyboard */,
+				D50BE06827D293C1006FCFF4 /* Employee.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D50BE06427D28CB3006FCFF4 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D50BE00027D28545006FCFF4 /* SceneDelegate.swift */,
+				D50BE00A27D2854A006FCFF4 /* Assets.xcassets */,
+				D50BDFFE27D28545006FCFF4 /* AppDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D50BE06E27D31008006FCFF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D50BE06F27D3102C006FCFF4 /* EmployeeModel.swift */,
+				D50BE07127D3105B006FCFF4 /* DepartmentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D50BE07327D31C66006FCFF4 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				D50BE06E27D31008006FCFF4 /* Model */,
+				D50BE07427D31C84006FCFF4 /* View */,
+				D50BE04E27D28AAF006FCFF4 /* Controller */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		D50BE07427D31C84006FCFF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D50BE05227D28AFE006FCFF4 /* Cell */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +389,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50BE06B27D293C1006FCFF4 /* Employee.storyboard in Resources */,
+				D50BE06D27D293C1006FCFF4 /* Department.storyboard in Resources */,
 				D50BE00E27D2854A006FCFF4 /* LaunchScreen.storyboard in Resources */,
 				D50BE00B27D2854A006FCFF4 /* Assets.xcassets in Resources */,
-				D50BE00627D28545006FCFF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +417,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D50BE00327D28545006FCFF4 /* ViewController.swift in Sources */,
+				D50BE04D27D28A68006FCFF4 /* Databasehelper.swift in Sources */,
+				D50BE06027D28C38006FCFF4 /* EmployeeFormViewController.swift in Sources */,
+				D50BE07027D3102C006FCFF4 /* EmployeeModel.swift in Sources */,
+				D50BE05E27D28C1E006FCFF4 /* EmployeeListViewController.swift in Sources */,
+				D50BE03E27D2890B006FCFF4 /* Employee+CoreDataProperties.swift in Sources */,
+				D50BE04927D289EF006FCFF4 /* Alert+Extension.swift in Sources */,
+				D50BE05A27D28BBF006FCFF4 /* DepartmentFormViewController.swift in Sources */,
+				D50BE05C27D28BF2006FCFF4 /* DepartmentDetailViewController.swift in Sources */,
+				D50BE04427D28992006FCFF4 /* Constant.swift in Sources */,
+				D50BE05827D28B9F006FCFF4 /* DepartmentListViewController.swift in Sources */,
 				D50BDFFF27D28545006FCFF4 /* AppDelegate.swift in Sources */,
+				D50BE05427D28B47006FCFF4 /* EmployeeCell.swift in Sources */,
 				D50BE00127D28545006FCFF4 /* SceneDelegate.swift in Sources */,
+				D50BE03D27D2890B006FCFF4 /* Employee+CoreDataClass.swift in Sources */,
+				D50BE04027D2890B006FCFF4 /* Department+CoreDataProperties.swift in Sources */,
 				D50BE00927D28545006FCFF4 /* CoreDataTask.xcdatamodeld in Sources */,
+				D50BE07227D3105B006FCFF4 /* DepartmentModel.swift in Sources */,
+				D50BE04727D289D1006FCFF4 /* Storyboard+Extension.swift in Sources */,
+				D50BE03F27D2890B006FCFF4 /* Department+CoreDataClass.swift in Sources */,
+				D50BE05627D28B5A006FCFF4 /* DepartmentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +473,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D50BE00427D28545006FCFF4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D50BE00527D28545006FCFF4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D50BE00C27D2854A006FCFF4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -371,7 +535,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -426,7 +590,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -448,7 +612,7 @@
 				INFOPLIST_FILE = CoreDataTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Department;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,7 +640,7 @@
 				INFOPLIST_FILE = CoreDataTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Department;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
